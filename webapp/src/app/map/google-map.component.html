@@ -1,0 +1,27 @@
+
+  <div *ngIf="lat && lng">
+    <agm-map [latitude]="lat" [longitude]="lng">
+      <agm-marker [latitude]="lat" [longitude]="lng">
+        <agm-info-window>
+          <h3><strong>Howdy!</strong></h3>
+            <p>You are here!</p>
+          </agm-info-window>
+        </agm-marker>
+        <agm-marker *ngFor="let marker of markers"
+          [latitude]="marker.location[0]"
+          [longitude]="marker.location[1]"
+          [iconUrl]="'https://cdn4.iconfinder.com/data/icons/christmas-30/48/boy-16.png'">
+          <agm-info-window>
+            <h3><strong>Location Details</strong></h3>
+            <p>You are {{ marker.distance }} kilometers from this point</p>
+          </agm-info-window>
+        </agm-marker>
+      </agm-map>
+    </div>
+
+    <!-- <div>
+      <mat-form-field class="distance-card">
+        <input matInput #distance placeholder="Safe zone radius" value=1>
+      </mat-form-field>
+    </div> -->
+ 

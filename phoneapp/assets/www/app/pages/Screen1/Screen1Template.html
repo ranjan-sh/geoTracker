@@ -1,0 +1,18 @@
+<div show-header="true" show-footer="true" show-top-tabs="true" show-tabs="true"
+ng-controller="Screen1" ng-cloak ng-init="init()" class="aio-empty-screen padding overflow-scroll">
+    <button class="button button-block" ng-click="showLocation()">
+        Button
+    </button>
+    <p>
+        {{lat}}
+    </p>
+    <p>
+        {{lng}}
+    </p>
+    <div class="aio-google-map ">
+        <ui-gmap-google-map center="{latitude: lat, longitude: lng}" zoom="4" pan="true">
+            <ui-gmap-marker coords="lat{latitude: lat, longitude: lng}" idKey="1">
+            </ui-gmap-marker>
+        </ui-gmap-google-map>
+    </div>
+</div>

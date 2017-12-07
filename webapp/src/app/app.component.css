@@ -1,0 +1,60 @@
+.top-card {
+    float: top;
+    height: 100px;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-right: -10px;
+    
+    /* font-weight: bold; */
+}
+
+.top-card-text {
+    font-family: "Roboto";
+    font-size: 5em;
+}
+
+.bottom-card {
+    /* float: bottom; */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 98%;
+    height: 5px;
+    text-align: right;
+    /* margin-left: -10px;
+    margin-bottom: -10px;
+    margin-right: -10px;
+    */
+} 
+
+
+.photo {
+    margin-top: 50px;
+    float: left;
+}
+
+.parent-chip {
+    color: White;
+    text-align: center;
+}
+
+.header-photo {
+    display: block;
+    max-width: 500px;
+    max-height: 250px;
+    width: 25%;
+    height: auto;
+    margin-top: -100px;
+}
+
+.chip {
+    width: 300px;
+    height: 50px;
+    margin-top: 100px;
+    float: left;
+    font-size: 35px;
+    font-family: "Trebuchet MS";
+    text-align: center;
+    /* color: White; */
+}

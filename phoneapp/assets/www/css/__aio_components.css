@@ -1,0 +1,37 @@
+
+/*
+* Appery.io side-menu component.
+*/
+ion-side-menu.menu {
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.aio-empty-screen {
+	position: absolute;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+	overflow-y: auto;
+}
+.aio-empty-screen:not(.has-header):not(.has-tabs-top) {
+	top: 0;
+}
+.aio-empty-screen:not(.has-footer):not(.has-tabs) {
+	bottom: 0;
+}
+.buttons .button-full,
+.buttons .button-block {
+	margin: 0;
+}
+.aio-google-map {
+	width: 100%;
+	height: 250px;
+	position: relative;
+}
+.aio-google-map .angular-google-map-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}

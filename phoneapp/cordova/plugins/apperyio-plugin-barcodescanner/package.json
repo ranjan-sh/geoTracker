@@ -1,0 +1,42 @@
+{
+  "name": "apperyio-plugin-barcodescanner",
+  "version": "1.0.0",
+  "description": "You can use the BarcodeScanner plugin to scan different types of barcodes (using the device's camera) and get the metadata encoded in them for processing within your application.",
+  "cordova": {
+    "id": "apperyio-plugin-barcodescanner",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apperyio/apperyio-plugin-barcodescanner.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "ecosystem:phonegap",
+    "cordova-ios",
+    "cordova-android",
+    "appery.io"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Appery.io Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apperyio/apperyio-plugin-barcodescanner/issues"
+  },
+  "homepage": "https://github.com/apperyio/apperyio-plugin-barcodescanner",
+  "scripts": {
+    "test": "jasmine-node --color spec"
+  },
+  "devDependencies": {
+    "jasmine-node": "1.14.5",
+    "pluginpub": "^0.0.5"
+  }
+}
