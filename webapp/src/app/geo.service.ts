@@ -46,7 +46,7 @@ export class GeoService {
         distance: distance
       };
       if (distance > 5) {
-        alert('Warning: Student out of safe zone');
+        // alert('Warning: Student out of safe zone');
         distance = 1;
       }
       console.log(key + ' ' + location + ' ' + distance);
